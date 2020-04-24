@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* ログインフォーム */
+button,
+input {
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    border-radius: 320px;
+    background: #EBECF0;
+}
+label {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+input {
+    color:#51AEFD;
+    box-shadow: 2px 2px 5px #BABECC inset, -5px -5px 10px #FFF inset;
+    width: 100%;
+    padding: 15px 15px 15px 53px;
+    transition: .5s;
+}
+::placeholder {
+    color:#51AEFD;
+}
+input:focus {
+    box-shadow: 1px 1px 2px #BABECC inset, -1px -1px 2px #FFF inset;
+}
+button {
+    color: #fff;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+    width: 30px;
+    height: 30px;
+    background:linear-gradient(#1554FF, #51AEFD);
+    left: 11px;
+    bottom: 39px;
+    position: relative;
+}
+button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    background: #EBECF0;
+}
+button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
